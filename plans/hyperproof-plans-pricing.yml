@@ -10,32 +10,35 @@ tags:
 - GRC
 - Compliance
 - Risk
-- Operations
 - Audit
+- SOC 2
 - Plans
-description: Placeholder plans/pricing artifact for Hyperproof. Replace with real published pricing once
-  the pipeline researches the provider's plans page.
-notes: Initial scaffold — plans/pricing have not yet been reconciled.
+description: Hyperproof pricing is quote-based and not publicly posted. Plans typically scale by user
+  count, frameworks, and Hypersync integrations.
+notes: Contact Hyperproof sales for tier details.
 sources:
 - https://hyperproof.io/
+- https://developers.hyperproof.io/
 plans:
-- id: hyperproof-default
-  name: To Be Reconciled
+- id: hyperproof-quote-based
+  name: Quote-Based Subscription
   type: enterprise
-  description: Initial scaffold; replace with provider plan tiers once pricing is reconciled.
+  description: Enterprise subscription scoped to user count, frameworks, and Hypersync integrations.
   entries:
-  - label: API Access
-    name: api_access
+  - label: Subscription
+    name: subscription
     type: flat
-    metric: varies
+    metric: annual subscription
     limit: -1
-    timeFrame: usage
+    timeFrame: yearly
     geo: global
     unit: 1
-    price: see https://hyperproof.io/
+    price: contact sales
     userMultiplied: false
   elements:
-  - name: Pending Reconciliation
+  - name: REST API Access
+  - name: Hypersync Integrations
+  - name: Continuous Monitoring
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

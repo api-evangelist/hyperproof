@@ -10,13 +10,13 @@ tags:
 - GRC
 - Compliance
 - Risk
-- Operations
 - Audit
+- SOC 2
 - FinOps
 - Cost Management
 - FOCUS
-description: FOCUS-aligned FinOps placeholder for Hyperproof. Pipeline will replace with real billing details.
-notes: Initial scaffold — billing model has not yet been reconciled.
+description: FOCUS-aligned FinOps profile. Hyperproof bills via annual subscription.
+notes: API access included in subscription.
 sources:
 - https://hyperproof.io/
 - https://focus.finops.org/focus-specification/v1-3/
@@ -27,31 +27,30 @@ alignedWith:
   dataSpecVersion: '1.3'
   dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
 publisherName: Hyperproof
-serviceCategory: GRC
+serviceCategory: Compliance & Governance
 billingModel:
-  pricingCategory: To Be Reconciled
-  billingFrequency: Monthly
+  pricingCategory: Subscription
+  billingFrequency: Annual
   billingCurrency: USD
   chargeCategories:
-  - Usage
   - Purchase
   - Adjustment
 focusColumns:
   ServiceName: Hyperproof
-  ServiceCategory: GRC
+  ServiceCategory: Compliance & Governance
   ProviderName: Hyperproof
   PublisherName: Hyperproof
   InvoiceIssuerName: Hyperproof
   BillingCurrency: USD
   ChargeCategory: Usage
 meters:
-- name: api_usage
-  description: Catch-all meter pending reconciliation.
-  unit: varies
+- name: subscription
+  description: Annual subscription with users and integrations.
+  unit: subscription
   aggregation: sum
   dimensions:
   - account
-  - resource
+  - users
 principles:
 - name: Visibility
   description: Pull provider invoices or usage exports until a self-serve usage feed is documented.
