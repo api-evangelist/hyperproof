@@ -1,0 +1,29 @@
+aid: hyperproof
+url: https://raw.githubusercontent.com/api-evangelist/hyperproof/refs/heads/main/apis.yml
+name: Hyperproof
+x-type: company
+description: >-
+  Hyperproof is a compliance operations platform unifying control management, evidence collection, audit-readiness, and risk register across multiple frameworks.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - GRC
+  - Compliance
+  - Risk
+  - Operations
+  - Audit
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://hyperproof.io/
+  - type: Plans
+    url: plans/hyperproof-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/hyperproof-rate-limits.yml
+  - type: FinOps
+    url: finops/hyperproof-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
