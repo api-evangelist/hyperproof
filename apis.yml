@@ -1,7 +1,7 @@
 aid: hyperproof
 url: https://raw.githubusercontent.com/api-evangelist/hyperproof/refs/heads/main/apis.yml
 name: Hyperproof
-x-type: company
+kind: company
 description: Hyperproof is a continuous compliance and risk management platform that automates evidence
   collection, control management, and audit workflows. It exposes a public REST API covering 20+ resources
   (Controls, Policies, Programs, Risks, Proof, Tasks, Issues, Vendors, Users, Groups, Roles, Scopes, Questionnaires,
