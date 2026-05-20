@@ -8,54 +8,58 @@ description: Hyperproof is a continuous compliance and risk management platform 
   Custom Apps, Labels, and more) plus the Hypersync SDK for custom integrations.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- GRC
-- Compliance
-- Risk
-- Audit
-- SOC 2
+  - GRC
+  - Compliance
+  - Risk
+  - Audit
+  - SOC 2
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-- aid: hyperproof:rest-api
-  name: Hyperproof REST API
-  description: 'REST API exposing 20+ resources for compliance management: Controls, Policies, Policy
-    Versions, Programs, Risks, Proof, Test Results, Issues, Tasks, Task Statuses, Questionnaires, Custom
-    Apps, Labels, Custom Fields, Vendors, External Contacts, Users, Groups, Roles, Role Assignments, Scopes,
-    Scope Assignments.'
-  humanURL: https://developers.hyperproof.io/
-  tags:
-  - GRC
-  - Compliance
-  - REST
-  properties:
-  - type: Documentation
-    url: https://developers.hyperproof.io/
-- aid: hyperproof:hypersync-sdk
-  name: Hypersync SDK
-  description: SDK for building custom Hypersync integrations that automate evidence collection from third-party
-    systems.
-  humanURL: https://developers.hyperproof.io/
-  tags:
-  - SDK
-  - Integrations
-  - Evidence
-  properties:
-  - type: Documentation
-    url: https://developers.hyperproof.io/
+  - aid: hyperproof:rest-api
+    name: Hyperproof REST API
+    description: 'REST API exposing 20+ resources for compliance management: Controls, Policies, Policy
+      Versions, Programs, Risks, Proof, Test Results, Issues, Tasks, Task Statuses, Questionnaires, Custom
+      Apps, Labels, Custom Fields, Vendors, External Contacts, Users, Groups, Roles, Role Assignments, Scopes,
+      Scope Assignments.'
+    humanURL: https://developers.hyperproof.io/
+    tags:
+    - GRC
+    - Compliance
+    - REST
+    properties:
+    - type: Documentation
+      url: https://developers.hyperproof.io/
+  - aid: hyperproof:hypersync-sdk
+    name: Hypersync SDK
+    description: SDK for building custom Hypersync integrations that automate evidence collection from third-party
+      systems.
+    humanURL: https://developers.hyperproof.io/
+    tags:
+    - SDK
+    - Integrations
+    - Evidence
+    properties:
+    - type: Documentation
+      url: https://developers.hyperproof.io/
 common:
-- type: Website
-  url: https://hyperproof.io/
-- type: Developer
-  url: https://developers.hyperproof.io/
-- type: Plans
-  url: plans/hyperproof-plans-pricing.yml
-- type: RateLimits
-  url: rate-limits/hyperproof-rate-limits.yml
-- type: FinOps
-  url: finops/hyperproof-finops.yml
-- type: Integrations
-  url: https://hyperproof.io/integrations/
+  - type: GitHubOrganization
+    url: https://github.com/Hyperproof
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hyperproof
+  - type: Website
+    url: https://hyperproof.io/
+  - type: Developer
+    url: https://developers.hyperproof.io/
+  - type: Plans
+    url: plans/hyperproof-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/hyperproof-rate-limits.yml
+  - type: FinOps
+    url: finops/hyperproof-finops.yml
+  - type: Integrations
+    url: https://hyperproof.io/integrations/
 integrations:
   - name: Hyperproof
   - name: About Hyperproof
@@ -80,5 +84,5 @@ integrations:
   - name: Capterra
   - name: Vendr Verified Seller 2024 Badge
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
