@@ -60,6 +60,8 @@ common:
     url: finops/hyperproof-finops.yml
   - type: Integrations
     url: https://hyperproof.io/integrations/
+  - type: LLMsTxt
+    url: https://hyperproof.io/llms.txt
 integrations:
   - name: Hyperproof
   - name: About Hyperproof
