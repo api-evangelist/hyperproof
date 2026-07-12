@@ -44,6 +44,8 @@ apis:
     - type: Documentation
       url: https://developers.hyperproof.io/
 common:
+  - type: DomainSecurity
+    url: security/hyperproof-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Hyperproof
   - type: LinkedIn
@@ -62,6 +64,8 @@ common:
     url: https://hyperproof.io/integrations/
   - type: LlmsText
     url: https://hyperproof.io/llms.txt
+  - url: https://hyperproof.io/blog/
+    type: Blog
 integrations:
   - name: Hyperproof
   - name: About Hyperproof
