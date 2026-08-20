@@ -50,6 +50,10 @@ apis:
     humanURL: https://developers.hyperproof.io/
     tags:
     - SDK
+    - Integration
+    - Evidence
+    tags_raw:
+    - SDK
     - Integrations
     - Evidence
     properties:
