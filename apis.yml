@@ -6,6 +6,17 @@ description: Hyperproof is a continuous compliance and risk management platform 
   collection, control management, and audit workflows. It exposes a public REST API covering 20+ resources
   (Controls, Policies, Programs, Risks, Proof, Tasks, Issues, Vendors, Users, Groups, Roles, Scopes, Questionnaires,
   Custom Apps, Labels, and more) plus the Hypersync SDK for custom integrations.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
