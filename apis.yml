@@ -33,9 +33,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperproof
 tags:
   - GRC
   - Compliance
+  - Risk Management
+  - Audit
+  - SOC 2
+tags_raw:
+  - GRC
+  - Compliance
   - Risk
   - Audit
   - SOC 2
+  - Risk Management
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.23'
